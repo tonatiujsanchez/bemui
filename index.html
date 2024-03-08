@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM UI</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="header__logo">
+                BEM<span class="header__logo--color">UI</span>
+            </a>
+        </div>
+    </header>
+    <div class="container content">
+        <aside class="sidebar">
+            <ul class="sidebar__list">
+                <li class="sidebar__item"><a class="sidebar__link" href="#cards-menu">Card Menu</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#cards-clasic">Card Clasic</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#buttons">Buttons</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#tags">Tags</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#cards-simple">Cards Simple</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#progress">Progress</a></li>
+                <li class="sidebar__item"><a class="sidebar__link" href="#alerts">Alerts</a></li>
+            </ul>
+        </aside>
+        <main class="main">
+            <section id="cards-menu" class="section section--first">
+                <h2 class="section__title">Cards Menu</h2>
+                <div class="cards-menu">
+                    <article class="card-menu">
+                        <header class="card-menu__header">
+                            <ul class="card-menu__list">
+                                <li><a class="link link--primary link--active" href="#">Link  1</a></li>
+                                <li><a class="link link--primary" href="#">Link  2</a></li>
+                                <li><a class="link link--primary" href="#">Link  3</a></li>
+                            </ul>
+                        </header>
+                        <div class="card-menu__body">
+                            <h3 class="card-menu__title">Especial title treatment</h3>
+                            <p class="card-menu__text">With sopporting text belong as a natural lead-in to additional content.</p>
+                            <button type="button" class="card-menu__button btn btn--primary">
+                                Go somewhere
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg> 
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card-menu">
+                        <header class="card-menu__header">
+                            <ul class="card-menu__list">
+                                <li><a class="link link--link link--active" href="#">Link  1</a></li>
+                                <li><a class="link link--link" href="#">Link  2</a></li>
+                                <li><a class="link link--link" href="#">Link  3</a></li>
+                            </ul>
+                        </header>
+                        <div class="card-menu__body">
+                            <h3 class="card-menu__title">Especial title treatment</h3>
+                            <p class="card-menu__text">With sopporting text belong as a natural lead-in to additional content.</p>
+                            <button type="button" class="card-menu__button btn btn--link">
+                                Go somewhere
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg> 
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card-menu">
+                        <header class="card-menu__header">
+                            <ul class="card-menu__list">
+                                <li><a class="link link--success link--active" href="#">Link  1</a></li>
+                                <li><a class="link link--success" href="#">Link  2</a></li>
+                                <li><a class="link link--success" href="#">Link  3</a></li>
+                            </ul>
+                        </header>
+                        <div class="card-menu__body">
+                            <h3 class="card-menu__title">Especial title treatment</h3>
+                            <p class="card-menu__text">With sopporting text belong as a natural lead-in to additional content.</p>
+                            <button type="button" class="card-menu__button btn btn--success">
+                                Go somewhere
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg> 
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card-menu">
+                        <header class="card-menu__header">
+                            <ul class="card-menu__list">
+                                <li><a class="link link--info link--active" href="#">Link  1</a></li>
+                                <li><a class="link link--info" href="#">Link  2</a></li>
+                                <li><a class="link link--info" href="#">Link  3</a></li>
+                            </ul>
+                        </header>
+                        <div class="card-menu__body">
+                            <h3 class="card-menu__title">Especial title treatment</h3>
+                            <p class="card-menu__text">With sopporting text belong as a natural lead-in to additional content.</p>
+                            <button type="button" class="card-menu__button btn btn--info">
+                                Go somewhere
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg> 
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card-menu">
+                        <header class="card-menu__header">
+                            <ul class="card-menu__list">
+                                <li><a class="link link--danger link--active" href="#">Link  1</a></li>
+                                <li><a class="link link--danger" href="#">Link  2</a></li>
+                                <li><a class="link link--danger" href="#">Link  3</a></li>
+                            </ul>
+                        </header>
+                        <div class="card-menu__body">
+                            <h3 class="card-menu__title">Especial title treatment</h3>
+                            <p class="card-menu__text">With sopporting text belong as a natural lead-in to additional content.</p>
+                            <button type="button" class="card-menu__button btn btn--danger">
+                                Go somewhere
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg> 
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card-menu">
+                        <header class="card-menu__header">
+                            <ul class="card-menu__list">
+                                <li><a class="link link--warning link--active" href="#">Link  1</a></li>
+                                <li><a class="link link--warning" href="#">Link  2</a></li>
+                                <li><a class="link link--warning" href="#">Link  3</a></li>
+                            </ul>
+                        </header>
+                        <div class="card-menu__body">
+                            <h3 class="card-menu__title">Especial title treatment</h3>
+                            <p class="card-menu__text">With sopporting text belong as a natural lead-in to additional content.</p>
+                            <button type="button" class="card-menu__button btn btn--warning">
+                                Go somewhere
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg> 
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="cards-clasic">
+                <h2 class="section__title">Cards Clasic</h2>
+                <div class="cards">
+                    <article class="card">
+                        <div class="card__img">
+                            <img 
+                                src="https://placehold.co/350x350"
+                                alt="Imagen de card"
+                                title="Imagen de card"
+                            >
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Card title</h3>
+                            <p class="card__text">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="card__button btn btn--primary">
+                                Go somewhere 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>                                  
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card__img">
+                            <img 
+                                src="https://placehold.co/350x350"
+                                alt="Imagen de card"
+                                title="Imagen de card"
+                            >
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Card title</h3>
+                            <p class="card__text">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="card__button btn btn--link">
+                                Go somewhere 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>                                  
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card__img">
+                            <img 
+                                src="https://placehold.co/350x350"
+                                alt="Imagen de card"
+                                title="Imagen de card"
+                            >
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Card title</h3>
+                            <p class="card__text">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="card__button btn btn--success">
+                                Go somewhere 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>                                  
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card__img">
+                            <img 
+                                src="https://placehold.co/350x350"
+                                alt="Imagen de card"
+                                title="Imagen de card"
+                            >
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Card title</h3>
+                            <p class="card__text">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="card__button btn btn--info">
+                                Go somewhere 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>                                  
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card__img">
+                            <img 
+                                src="https://placehold.co/350x350"
+                                alt="Imagen de card"
+                                title="Imagen de card"
+                            >
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Card title</h3>
+                            <p class="card__text">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="card__button btn btn--danger">
+                                Go somewhere 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>                                  
+                            </button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card__img">
+                            <img 
+                                src="https://placehold.co/350x350"
+                                alt="Imagen de card"
+                                title="Imagen de card"
+                            >
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Card title</h3>
+                            <p class="card__text">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                            <button type="button" class="card__button btn btn--warning">
+                                Go somewhere 
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn__svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>                                  
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="buttons" class="section">
+                <h2 class="section__title">Buttons</h2>
+                <div class="buttons">
+                    <h3>Darks buttons</h3>
+                    <div class="buttons-container">
+                        <button class="btn btn--white">White</button>
+                        <button class="btn btn--light">Light</button>
+                        <button class="btn btn--dark">Dark</button>
+                        <button class="btn btn--black">Black</button>
+                        <button class="btn btn--text">Text</button>
+                    </div>
+                    <h3>Variant buttons</h3>
+                    <div class="buttons-container">
+                        <button class="btn btn--primary">Primary</button>
+                        <button class="btn btn--link">Link</button>
+                        <button class="btn btn--success">Success</button>
+                        <button class="btn btn--info">Info</button>
+                        <button class="btn btn--danger">Danger</button>
+                        <button class="btn btn--warning">Warning</button>
+                    </div>
+                    <h3>Outline buttons</h3>
+                    <div class="buttons-container">
+                        <button class="btn btn--primary-outline">Primary</button>
+                        <button class="btn btn--link-outline">Link</button>
+                        <button class="btn btn--success-outline">Success</button>
+                        <button class="btn btn--info-outline">Info</button>
+                        <button class="btn btn--danger-outline">Danger</button>
+                        <button class="btn btn--warning-outline">Warning</button>
+                    </div>
+                    <h3>Sizes buttons</h3>
+                    <div class="buttons-container">
+                        <button class="btn btn--small">Small</button>
+                        <button class="btn btn--default">Default</button>
+                        <button class="btn btn--normal">Normal</button>
+                        <button class="btn btn--medium">Medium</button>
+                        <button class="btn btn--large">Large</button>
+                    </div>
+                </div>
+            </section>
+            <section id="tags" class="section">
+                <h2 class="section__title">Tags</h2>
+                <div class="tags">
+                    <h3>Variant tags</h3>
+                    <div class="tags-container">
+                        <button class="tag tag--primary">Primary</button>
+                        <button class="tag tag--link">Link</button>
+                        <button class="tag tag--success">Success</button>
+                        <button class="tag tag--info">Info</button>
+                        <button class="tag tag--danger">Danger</button>
+                        <button class="tag tag--warning">Warning</button>
+                    </div>
+                    <h3>Outline tags</h3>
+                    <div class="tags-container">
+                        <button class="tag tag--primary-outline">Primary</button>
+                        <button class="tag tag--link-outline">Link</button>
+                        <button class="tag tag--success-outline">Success</button>
+                        <button class="tag tag--info-outline">Info</button>
+                        <button class="tag tag--danger-outline">Danger</button>
+                        <button class="tag tag--warning-outline">Warning</button>
+                    </div>
+                </div>                
+            </section>
+            <section id="cards-simple" class="section">
+                <h2 class="section__title">Cards Simple</h2>
+                <div class="cards-simple">
+                    <article class="card-simple card-simple--primary">
+                        <header class="card-simple__header">
+                            Header
+                        </header>
+                        <div class="card-simple__body">
+                            <h3 class="card-simple__title">Card title</h3>
+                            <p class="card-simple__text card-simple__text--primary">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </article>
+                    <article class="card-simple card-simple--link">
+                        <header class="card-simple__header">
+                            Header
+                        </header>
+                        <div class="card-simple__body">
+                            <h3 class="card-simple__title">Card title</h3>
+                            <p class="card-simple__text card-simple__text--link">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </article>
+                    <article class="card-simple card-simple--success">
+                        <header class="card-simple__header">
+                            Header
+                        </header>
+                        <div class="card-simple__body">
+                            <h3 class="card-simple__title">Card title</h3>
+                            <p class="card-simple__text card-simple__text--success">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </article>
+                    <article class="card-simple card-simple--info">
+                        <header class="card-simple__header">
+                            Header
+                        </header>
+                        <div class="card-simple__body">
+                            <h3 class="card-simple__title">Card title</h3>
+                            <p class="card-simple__text card-simple__text--info">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </article>
+                    </article>
+                    <article class="card-simple card-simple--danger">
+                        <header class="card-simple__header">
+                            Header
+                        </header>
+                        <div class="card-simple__body">
+                            <h3 class="card-simple__title">Card title</h3>
+                            <p class="card-simple__text card-simple__text--danger">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </article>
+                    <article class="card-simple card-simple--warning">
+                        <header class="card-simple__header">
+                            Header
+                        </header>
+                        <div class="card-simple__body">
+                            <h3 class="card-simple__title">Card title</h3>
+                            <p class="card-simple__text card-simple__text--warning">Some quick example text to buils on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="progress" class="section">
+                <h2 class="section__title">Progress bar</h2>
+                <div class="progressbars">
+                    <div class="progressbar">
+                        <div class="progressbar__content"></div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="progressbar__content progressbar--primary"></div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="progressbar__content progressbar--link"></div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="progressbar__content progressbar--success"></div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="progressbar__content progressbar--info"></div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="progressbar__content progressbar--danger"></div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="progressbar__content progressbar--warning"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="alerts" class="section">
+                <h2 class="section__title">Alerts</h2>
+                <div class="alerts">
+                    <div class="alert">
+                        A simple alert—check it out!
+                    </div>
+                    <div class="alert alert--primary">
+                        A simple primary alert—check it out!
+                    </div>
+                    <div class="alert alert--link">
+                        A simple link alert—check it out!
+                    </div>
+                    <div class="alert alert--success">
+                        A simple success alert—check it out!
+                    </div>
+                    <div class="alert alert--info">
+                        A simple info alert—check it out!
+                    </div>
+                    <div class="alert alert--danger">
+                        A simple danger alert—check it out!
+                    </div>
+                    <div class="alert alert--warning">
+                        A simple warning alert—check it out!
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <footer class="footer">
+        <p class="footer__copy">© 2024 - Tonatiuj Sánchez</p>
+    </footer>    
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
